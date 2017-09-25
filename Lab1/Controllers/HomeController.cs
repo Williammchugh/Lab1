@@ -26,5 +26,9 @@ namespace Lab1.Controllers
 
             return View();
         }
+        public ActionResult ProductsController()
+        {
+            return View();
+        }
     }
 }
