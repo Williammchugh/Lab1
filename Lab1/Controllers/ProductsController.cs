@@ -15,6 +15,7 @@ namespace Lab1.Controllers
         }
         public ActionResult Products()
         {
+            ViewBag.Message = "This is a test.";
             return View();
         }
     }
