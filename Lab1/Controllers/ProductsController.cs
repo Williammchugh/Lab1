@@ -18,8 +18,9 @@ namespace Lab1.Controllers
         {
             return View();
         }
-        public ActionResult Details()
+        public ActionResult Details(String product)
         {
+            ViewBag.Product = product;
             return View();
         }
     }
