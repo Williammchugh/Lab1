@@ -9,7 +9,7 @@ namespace Lab1.Controllers
     public class ProductsController : Controller
     {
         // GET: Products
-        public ActionResult Products()
+        public ActionResult Index()
         { 
             ViewBag.Message = "Hello world";
             return View();
