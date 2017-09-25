@@ -14,7 +14,7 @@ namespace Lab1.Controllers
             ViewBag.Message = "Hello world";
             return View();
         }
-        public ActionResult Products(String product)
+        public ActionResult Products()
         {
             return View();
         }
