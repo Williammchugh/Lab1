@@ -13,7 +13,7 @@ namespace Lab1.Controllers
         {
             return View();
         }
-        public ActionResult ProductController(String product)
+        public ActionResult Products()
         {
             return View();
         }
